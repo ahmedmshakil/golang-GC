@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-    var a [5]int
+    var a [5]int 
     fmt.Println("emp:", a)
 
     a[4] = 100
@@ -35,4 +35,6 @@ func main() {
         {1, 2, 3},
     }
     fmt.Println("2d: ", twoD)
+    var a := 10
+    var a = 20
 }
